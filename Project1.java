@@ -21,7 +21,7 @@ public class Project1
 			}
 			if((user.equalsIgnoreCase("rock") && str[computer].equalsIgnoreCase("scissor")) || 
 			(user.equalsIgnoreCase("paper") && str[computer].equalsIgnoreCase("rock")) || 
-      (user.equalsIgnoreCase("scissor") && str[computer].equalsIgnoreCase("paper"))){
+                        (user.equalsIgnoreCase("scissor") && str[computer].equalsIgnoreCase("paper"))){
 				System.out.println("You won");
 			}
 			else if(user.equals(str[computer])){
